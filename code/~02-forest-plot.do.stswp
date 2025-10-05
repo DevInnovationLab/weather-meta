@@ -86,8 +86,9 @@ foreach p in $plots{
 		if "`p'" == "3"{
 
 		*** Yields ***
+
 		* Declare meta-analysis data: effect sizes and standard errors
-		meta set yields_effectsize yields_sterror, studysize(n) studylabel(dcode)
+		meta set yes yse, studysize(n) studylabel(dcode)
 
 		* Summarize using random-effects model
 		meta summarize, random
