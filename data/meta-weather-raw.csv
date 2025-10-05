@@ -1,44 +1,47 @@
 code,variable_group,var_version,Definition,control_mean,control_sd,effect_size,standard_error,pct_of_cm,usd_cum_inflation_to_2023,usdxr_yearofstudy,currency,yearofstudy,Follow up,N,Source
-yegbemey_2023,takeup,1,use of SMS with weather information among treatment farmers.,na,na,0.7,na,,,,,2018,7 months (pooled monthly surveys),311,"Page 106182 ""As upwards of 30% of farmers in the treatment group reported not using the SMS in a given month"""
-yegbemey_2023,profits,1,na,,,,,,,,,2018,,,
-yegbemey_2023,revenue,1,na,,,,,,,,,2018,,,
-yegbemey_2023,costs,1,"maize, labor expenditure per hectare, denoted USD/ha.",113.55,na,-12.87,3.97,-11.33%,1.212689053,1,USD,2018,7 months (pooled monthly surveys),305,Table 3
-yegbemey_2023,land,1,maize land acreage (ha) at baseline,6.28,1.92,,,,,,,2018,,,Table 2
-yegbemey_2023,yields,1,maize in kg per ha,3523.58,na,249.87,377.2,7.09%,,,,2018,7 months (pooled monthly surveys),261,Table 3
-yegbemey_2023,consumption,1,na,,,,,,,,,2018,,,
-yegbemey_2023,costs,2,"cotton, labor expenditure per hectare, denoted USD/ha.",246.77,na,-41.9,18.18,-16.98%,1.212689053,1,USD,2018,7 months (pooled monthly surveys),259,Table 3
-yegbemey_2023,land,2,cotton land acreage (ha) at baseline,4.45,1.8,,,,,,,2018,7 months (pooled monthly surveys),,Table 2
-yegbemey_2023,yields,2,cotton in kg per ha,1613.53,na,153.73,39.79,9.53%,,,,2018,7 months (pooled monthly surveys),298,Table 3
+yegbemey_2023,takeup,1,use of SMS with weather information among treatment farmers.,na,na,0.70,na,,,,,,7 months (pooled monthly surveys),311,"Page 106182 ""As upwards of 30% of farmers in the treatment group reported not using the SMS in a given month"""
+yegbemey_2023,profits,1,na,,,,,,,,,,,,
+yegbemey_2023,revenue,1,na,,,,,,,,,,,,
+yegbemey_2023,costs,1,"maize, total labor expenditure per hectare, denoted USD/ha.",113.55,na,-26.07,6.72,-22.96%,1.212689053,1,USD,2018,7 months (pooled monthly surveys),305,Table 3
+yegbemey_2023,costs,3,"maize, paid labor expenditure per hectare, denoted USD/ha.",59.41,na,-12.87,6.72,-21.66%,1.212689053,1,USD,2018,7 months (pooled monthly surveys),305,Table 3
+yegbemey_2023,land,1,maize land acreage (ha) at baseline,6.28,1.92,,,,,,,,,,Table 2
+yegbemey_2023,yields,1,maize in kg per ha ,3523.58,na,249.87,377.20,7.09%,,,,,7 months (pooled monthly surveys),261,Table 3
+yegbemey_2023,consumption,1,na,,,,,,,,,,,,
+yegbemey_2023,costs,2,"cotton, total labor expenditure per hectare, denoted USD/ha.",246.77,na,-41.90,18.18,-16.98%,1.212689053,1,USD,2018,7 months (pooled monthly surveys),259,Table 3
+yegbemey_2023,costs,4,"cotton, paid labor expenditure per hectare, denoted USD/ha.",109.01,na,0.64,18.18,0.59%,1.212689053,1,USD,2018,7 months (pooled monthly surveys),259,Table 3
+yegbemey_2023,land,2,cotton land acreage (ha) at baseline,4.45,1.8,,,,,,,,7 months (pooled monthly surveys),,Table 2
+yegbemey_2023,yields,2,cotton in kg per ha ,1613.53,na,153.73,39.79,9.53%,,,,,7 months (pooled monthly surveys),298,Table 3
 cole_2025,takeup,1,listened >=1 ag. advisory call more than 10s,0,,0.94,0.005,,,,,,,,
-cole_2025,takeup,2,total minutes spent on the digital service,na,na,29.89,0.5,,,,,,6 months,2078,Table 2
-cole_2025,profits,1,"total value of harvest (calculated using median sales prices in farmers’ location) minus total variable cost, INR",7706.75,na,326.41,929.95,4.24%,1.164927044,0.0135,INR,2021,6 months,1929,Table 6
-cole_2025,revenue,1,self-reported revenue from rice sales (INR),16606.245,na,656.7,888.63,3.95%,1.164927044,0.0135,INR,2021,6 months,1929,Table 6
+cole_2025,takeup,2,total minutes spent on the digital service,na,na,29.89,0.50,,,,,,6 months,2078,Table 2
+cole_2025,profits,1,"total value of harvest (calculated using median sales prices in farmersâ€™ location) minus total variable cost, INR",7706.75,na,326.41,929.95,4.24%,1.164927044,0.0135,INR,2021,6 months,1929,Table 6
+cole_2025,revenue,1,self-reported revenue from rice sales (INR),16606.245,na,656.70,888.63,3.95%,1.164927044,0.0135,INR,2021,6 months,1929,Table 6
 cole_2025,costs,1,"total variable cost of rice cultivation (INR), summation of raw cost items: Seed, Fertilizer, Pesticide, Irrigation, Worker, Tractor, Transport, Other",25634.269,na,820.33,554.28,3.20%,1.164927044,0.0135,INR,2021,6 months,1929,Table 6
 cole_2025,costs,2,worker costs (INR),9139.174,8459.24,371.02,270.25,4.06%,1.164927044,0.0135,INR,2021,6 months,1929,Table A6
-cole_2025,land,1,rice cultivation area (ha),0.886,na,0.02,0.02,1.69%,,,,2021,6 months,3835,Table 5
-cole_2025,yields,1,total rice yield (kg/ha) using self-reported harvest and self-reported land size,2713.196,na,41.82,43.03,1.54%,,,,2021,6 months,3835,Table 5
-cole_2025,yields,2,total VI-predicted yield (kg/ha) for rice sample,2991.779,na,17.69,9.15,0.59%,,,,2021,6 months,3835,Table 12
+cole_2025,land,1,rice cultivation area (ha),0.886,na,0.02,0.02,1.69%,,,,,6 months,3835,Table 5
+cole_2025,yields,1,total rice yield (kg/ha) using self-reported harvest and self-reported land size,2713.196,na,41.82,43.03,1.54%,,,,,6 months,3835,Table 5
+cole_2025,yields,2,total VI-predicted yield (kg/ha) for rice sample,2991.779,na,17.69,9.15,0.59%,,,,,6 months,3835,Table 12
 burlig_2025,takeup,1,forecast takeup,0,na,0.88,0.02,,,,,2022,5 months,1201,Table A5
-burlig_2025,profits,1,ag profit ($) is the value of production (evaluated at district-median prices) less total expenditure in USD.,970.62,na,-213.2,160.64,-21.97%,1.078636152,1,USD,2022,5 months,1201,Table A12
+burlig_2025,profits,1,ag profit ($) is the value of production (evaluated at district-median prices) less total expenditure in USD.,970.62,na,-213.20,160.64,-21.97%,1.078636152,1,USD,2022,5 months,1201,Table A12
+burlig_2025,profits,2,"Profit w/ loss ($) is the value of production plus the value of crop losses, less total expenditure in USD.",1654.24,na,-31.73,193.31,-1.92%,1.078636152,1,USD,2022,5 months,1201,Table A12
 burlig_2025,revenue,1,"value Prod ($) is the value of all crops produced in USD, whether they were sold or not, using median village prices for each crop.",2419.93,na,-186.72,193.85,-7.72%,1.078636152,1,USD,2022,5 months,1201,Table A11
 burlig_2025,costs,1,"total amount spent on all inputs, fertilizer, seed, labour and any other costs reported by farmers",1443.49,na,26.48,95.44,1.83%,1.078636152,1,USD,2022,5 months,1201,Table A10
-burlig_2025,costs,2,labor the amount spent on labor throughout the cropping season,761.96,,24.38,50.2,3.20%,1.078636152,1,USD,2022,5 months,1201,Table A10
-burlig_2025,land,1,"land Ha. is area cultivated, measured in hectares.",2.12,,-0.12,0.11,-5.61%,,,,2022,5 months,1201,Table A9 and A13
-burlig_2025,yields,1,yield is kilograms of production per hectare,35.37,na,-2.92,2.73,-8.26%,,,,2022,5 months,1201,Table A11
-burlig_2025,consumption,1,food consumption,13.22,,0.87,0.42,6.58%,1.078636152,1,USD,2022,5 months,1201,Table 8
-burlig_2025,consumption,2,other non-food consumption,9.93,,-0.52,0.82,-5.24%,1.078636152,1,USD,2022,5 months,1201,Table 8
-camacho_2019,takeup,1,proportion of farmers that used SMS information in for sales decisions (note that about 21 weather messages were sent out of a total of 164 daily messages that contained price information during about six months),na,na,0.33,0.04,,,,,2009,5 months,473,Table 2
+burlig_2025,costs,2,labor the amount spent on labor throughout  the cropping season,761.96,,24.38,50.20,3.20%,1.078636152,1,USD,2022,5 months,1201,Table A10
+burlig_2025,land,1,"land Ha. is area cultivated, measured in hectares.",2.12,,-0.12,0.11,-5.61%,,,,,5 months,1201,Table A9 and A13
+burlig_2025,yields,1,yield is kilograms of production per hectare,35.37,na,-2.92,2.73,-8.26%,1.078636152,1,USD,2022,5 months,1201,Table A11
+burlig_2025,consumption,1,food consumption ($),13.22,,0.87,0.42,6.58%,1.078636152,1,USD,2022,5 months,1201,Table 8
+burlig_2025,consumption,2,other non-food consumption ($),9.93,,-0.52,0.82,-5.24%,1.078636152,1,USD,2022,5 months,1201,Table 8
+camacho_2019,takeup,1,proportion of farmers that used SMS information in for sales decisions (note that about 21 weather messages were sent out of a total of 164 daily messages that contained price information during about six months) ,na,na,0.33,0.04,,,,,2009,5 months,473,Table 2
 camacho_2019,profits,1,"quantity not reported, so difficult to sale price and costs into profits",na,na,,,,,,,,,,
-camacho_2019,revenue,1,sale price per kilogram (in pesos),855,866,-83.86,88.79,-9.81%,,,,2009,5 months,1021,"Table 4 and Footnote 19: In results not shown, in order to estimate whether revenues would be affected, we also looked at the impact of the intervention on the quantity produced by treated farmers. We found no statistically significant effect."
+camacho_2019,revenue,1,sale price per kilogram (in pesos),855,666,-83.86,88.79,-9.81%,,,,2009,5 months,1021,"Table 1, Table 4 (FE specification) and Footnote 19:  In results not shown, in order to estimate whether revenues would be affected, we also looked at the impact of the intervention on the quantity produced by treated farmers. We found no statistically significant effect."
 camacho_2019,costs,1,"labor costs (in 100,000 pesos)",4.14,8.58,-2.26,1.39,-54.52%,1.247857036,0.0005,COP,2009,5 months,292,Table 3 (ANCOVA specification) and Table 1 for control mean
-camacho_2019,land,1,total farm area (ha),1.89,3.61,,,,,,,,,,
+camacho_2019,land,1,total farm area (ha),1.89,3.61,,,,,,,,,,Table 1
 camacho_2019,yields,1,na,,,,,,,,,,,,
 rudder_2024,takeup,1,received weather info from official sources,0.509,na,0.12,0.01,23.38%,1,,,2023,8 months,,Table 5
 rudder_2024,profits,1,profits,25005.653,,1705.83,4926.93,6.82%,1,0.0036,PKR,2023,8 months,1386,Table 8
-rudder_2024,revenue,1,revenue,94968.054,,4280,5168.25,4.51%,1,0.0036,PKR,2023,8 months,1386,Table 8
+rudder_2024,revenue,1,revenue,94968.054,,4280.00,5168.25,4.51%,1,0.0036,PKR,2023,8 months,1386,Table 8
 rudder_2024,costs,1,input costs,69699.634,,2227.72,1871.69,3.20%,1,0.0036,PKR,2023,8 months,1408,Table 8
 rudder_2024,land,1,farm size acres,5.578,5.925,,,,,,,2023,8 months,5734,Table 1
-rudder_2024,yields,1,yields (mounds = 40kg/acre),11.78,na,0.6,0.59,5.12%,,,,2023,8 months,1403,Table 8
+rudder_2024,yields,1,yields (mounds = 40kg/acre),11.78,na,0.60,0.59,5.12%,,,,2023,8 months,1403,Table 8
 fafchamps_2012,takeup,1,RML usage (from 2010 and phone interview),0.59,na,,,,1.247857036,,,2009,,933,Table 2 (in-text)
-fafchamps_2012,profits,1,"sales minus monetary input costs (fertilizer, pesticides, spray, purchased seeds, manure) in rupees",na,na,46352,79917.24,,1.247857036,0.020656889,INR,2009,,,Table 7 (Nearest neighbor matching)
-fafchamps_2012,revenue,1,sales in rupees,na,na,48247,83184.48,,1.247857036,,,2009,,,Table 7 (Nearest neighbor matching)
+fafchamps_2012,profits,1,"sales minus monetary input costs (fertilizer, pesticides, spray, purchased seeds, manure) in rupees",na,na,46352.00,79917.24,,1.247857036,0.020657,INR,2009,,,Table 7 (Nearest neighbor matching)
+fafchamps_2012,revenue,1,sales in rupees,na,na,48247.00,83184.48,,1.247857036,,,2009,,,Table 7 (Nearest neighbor matching)
