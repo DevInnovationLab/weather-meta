@@ -49,6 +49,9 @@ foreach v in effect_size standard_error control_mean control_sd{
 	replace `v'  = `v'*6.28 if code == "yegbemey_2023" & variable_group == "costs" & (var_version==1|var_version==3)
 	replace `v'  = `v'*4.45 if code == "yegbemey_2023" & variable_group == "costs" & (var_version==2|var_version==4)
 	
+	* convert the rudder lannd measure to acres
+	replace `v'  = `v'/2.471 if code == "rudder_2024" & variable_group == "land"
+	
 	gen `v'_usd    = `v' * usdxr_yearofstudy
 	gen `v'_usd23  = `v'_usd * usd_cum_inflation_to_2023
 }
@@ -62,6 +65,8 @@ replace dcode = dcode + "_remote" if code == "cole_2025"     & var_version == 2 
 
 * drop the paid labor outcomes for yegbemey_2023
 drop if dcode == "yegbemey_etal_2023" & var_version>2
+* drop the profit+loss outcome for burlig_etal_2025
+drop if dcode == "burlig_etal_2025" & var_version>1
 
 ********************************************************************************
 **#                2. Create effect sizes and standard errors 

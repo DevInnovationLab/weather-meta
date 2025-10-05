@@ -33,7 +33,7 @@ cap mkdir 	 "${out_gra}"
 ********************************************************************************
 import delimited "$data/meta-weather-prep.csv", clear
 
-glo plots 1 2 3
+glo plots 1 2 3 4
 
 ********************************************************************************
 **#                           2. Run plots
@@ -102,6 +102,31 @@ foreach p in $plots{
     
      	graph save     "${out_gra}/yields_fp"     , replace
     	graph export    "${out_gra}/yields_fp.png" , replace
+	}
+	
+	if "`p'" == "4"{
+		
+		* per-hectare effects
+		* Declare meta-analysis data: effect sizes and standard errors
+		meta set profitcostsperha_effectsize profitcostsperha_sterror, studysize(n) studylabel(dcode) 
+
+		* Summarize using random-effects model
+		meta summarize, random subgroup(subgroup_cost) 
+		scalar pooled = r(theta)   // pooled effect estimate from random-effects 
+
+		* Generate the forest plot with random-effects results
+		meta forestplot, random noohetstats  ///
+						 noohomtest /* no overall homogeneity test */ ///
+						 subgroup(subgroup_cost) /* no subgroup het test*/ ///
+						 noghet /* add line: esrefl*/ ///
+						 scheme(lean2) ///
+						/*  xline(`pooled', lpattern(dash)) xline(0) */ ///
+						 note("Random effects model. Values are in 2023 USD per hectare.")
+		**
+	    graph display, xsize(8)
+
+		graph save     "${out_gra}/profits_costs_perha_fp"     , replace
+    	graph export    "${out_gra}/profits_costs_perha_fp.png" , replace
 	}
 
 }

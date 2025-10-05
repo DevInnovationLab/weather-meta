@@ -2,10 +2,9 @@ dcode,subgroup_cost,variable_group,profitcosts_effectsize,profitcosts_sterror,pr
 camacho_etal_2019,Cost savings,costs,141.00786,86.726067,74.60733,45.886806,,,.33000001,.039999999,"labor costs (in 100,000 pesos)",.54589373,258.30643,292,2009,5 months
 yegbemey_etal_2023_cotton,Cost savings,costs,226.11194,98.107758,50.811672,22.046688,,,.69999999,,"cotton, total labor expenditure per hectare, denoted USD/ha.",.16979374,1331.6859,259,2018,7 months (pooled monthly surveys)
 yegbemey_etal_2023_maize,Cost savings,costs,198.54097,51.177418,31.614803,8.1492701,,,.69999999,,"maize, total labor expenditure per hectare, denoted USD/ha.",.22959049,864.76129,305,2018,7 months (pooled monthly surveys)
-burlig_etal_2025,Profits,profits,-34.225124,208.51115,,,,,.88,.02,"Profit w/ loss ($) is the value of production plus the value of crop losses, less total expenditure in USD.",-.019181013,1784.3231,1201,2022,5 months
 burlig_etal_2025,Profits,profits,-229.96523,173.27211,-108.47417,81.732132,,,.88,.02,ag profit ($) is the value of production (evaluated at district-median prices) less total expenditure in USD.,-.21965341,1046.9458,1201,2022,5 months
 cole_etal_2025,Profits,profits,5.1332917,14.624872,5.7937832,16.506628,,,.94,.0049999999,"total value of harvest (calculated using median sales prices in farmers’ location) minus total variable cost, INR",.042353779,121.20033,1929,2021,6 months
-rudder_etal_2024,Profits,profits,6.1409879,17.736948,1.1009301,3.1798041,,,.12,.0099999998,profits,.068217777,90.020348,1386,2023,8 months
+rudder_etal_2024,Profits,profits,6.1409879,17.736948,2.7203982,7.857296,,,.12,.0099999998,profits,.068217777,90.020348,1386,2023,8 months
 burlig_etal_2025,,yields,,,,,-2.9200001,2.73,.88,.02,yield is kilograms of production per hectare,-.076537251,38.15136,1201,2022,5 months
 cole_etal_2025,,yields,,,,,41.82,43.029999,.94,.0049999999,total rice yield (kg/ha) using self-reported harvest and self-reported land size,.015413556,2713.196,3835,,6 months
 rudder_etal_2024,,yields,,,,,59.304001,58.315601,.12,.0099999998,yields (mounds = 40kg/acre),.050933786,1164.3352,1403,2023,8 months
