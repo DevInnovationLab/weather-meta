@@ -1,0 +1,24 @@
+StataFileTM:00001:01100:GREC:                          :
+00007:00007:00001:
+*! classname: combinegraph_g
+*! family: combine
+*! date:  7 Oct 2024
+*! time: 11:47:42
+*! graph_scheme: s2color
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.plotregion1.graph1.plotregion1.textbox18.DragBy 0 .544928343570666
+// text() 18 reposition
+
+.plotregion1.graph1.plotregion1.textbox18.DragBy -.5039547865180144 .5782591320063666
+// text() 18 reposition
+
+.plotregion1.graph2.plotregion1.textbox11.DragBy -.2533850868434281 1.858920115722082
+// text() 11 reposition
+
+
+// <end>
