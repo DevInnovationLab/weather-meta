@@ -5,7 +5,7 @@ library(rstan)
 library(baggr)
 library(tidyverse)
 
-root <- "C:/Users/gschinaia/Dropbox/Chicago/DIL/icccfsa"
+root <- "C:/Users/gschinaia/Dropbox/Chicago/DIL/github"
 path <- "/weather-meta/"
  dt <- read.csv(paste0(root,path,"data/meta-weather-prep.csv"))
 
@@ -95,3 +95,46 @@ bg_p1 <- dt %>%
         covariates = "cov")
 
 print(bg_p1)
+######################################################
+dt$variable_group[dt$variable_group == "costs"] <- "profits" 
+
+bg_p <- dt %>% 
+  filter(variable_group == "profits") %>% 
+  transmute(
+    trial = dcode,
+    tau = profitcostsperha_effectsize,
+    se = profitcostsperha_sterror,
+    control_mean_prep = control_mean_prep) %>% 
+  mutate(tau = tau,
+         se = se) %>% 
+  baggr(refresh = 0, 
+        group = "trial",
+        prior_hypermean = normal(0, 10),
+        prior_hypersd = cauchy(0, 5))
+# control = list(adapt_delta = 0.99))
+
+print(bg_p)
+plot(bg_p)
+png(paste0(root,path,"graphs/bg-profcost_perha.png"))
+forest_plot(bg_p)
+dev.off()
+
+bg_p0 <- dt %>% 
+  filter(variable_group == "profits") %>% 
+  transmute(
+    trial = dcode,
+    tau = profitcosts_effectsize,
+    se = profitcosts_sterror,
+    control_mean_prep = control_mean_prep) %>% 
+  mutate(tau = tau,
+         se = se) %>% 
+  baggr(refresh = 0, 
+        group = "trial",
+        prior_hypermean = normal(0, 5),
+        prior_hypersd = cauchy(0, 2.5))
+
+baggr_compare("Normal prior wt SD 5" = bg_p0,
+              "Normal prior wt SD 10" = bg_p,
+              compare = "effects", plot = TRUE)
+
+png(paste0(root,path,"graphs/bg-profcosts-compare_sd5vsd10.png"))

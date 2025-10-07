@@ -11,7 +11,7 @@ set more off
 
 * Working directory
 if "`c(username)'" == "gschinaia" {
-	global project "C:/Users/`c(username)'/Dropbox/Chicago/DIL/icccfsa/weather-meta"
+	global project "C:/Users/`c(username)'/Dropbox/Chicago/DIL/github/weather-meta"
 }
 
 ** sadly this is my username and I can't change it -Rayan

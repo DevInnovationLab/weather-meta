@@ -11,7 +11,7 @@ set more off
 
 * Working directory
 if "`c(username)'" == "gschinaia" {
-	global project "C:/Users/`c(username)'/Dropbox/Chicago/DIL/icccfsa/weather-meta"
+	global project "C:/Users/`c(username)'/Dropbox/Chicago/DIL/github/weather-meta"
 }
 
 ** sadly this is my username and I can't change it -Rayan
@@ -33,7 +33,9 @@ cap mkdir 	 "${out_gra}"
 ********************************************************************************
 import delimited "$data/meta-weather-prep.csv", clear
 
-glo plots 1 2 3 4
+glo plots /*  2 3 4 */ 1 
+
+sort dcode
 
 ********************************************************************************
 **#                           2. Run plots
@@ -50,7 +52,9 @@ foreach p in $plots{
 		local pooled = r(theta)   // pooled effect estimate from random-effects 
 
 		* Generate the forest plot with random-effects results
-		meta forestplot, random noohetstats  noohomtest /*  xline(`pooled', lpattern(dash)) xline(0) */ scheme(lean2)
+		meta forestplot, random noohetstats  noohomtest /*  xline(`pooled', lpattern(dash)) xline(0) */ scheme(lean2) ///
+							 note("Random effects model. Values are in 2023 USD.")
+
 
 		**
 		graph display, xsize(8)
@@ -117,7 +121,7 @@ foreach p in $plots{
 		* Generate the forest plot with random-effects results
 		meta forestplot, random noohetstats  ///
 						 noohomtest /* no overall homogeneity test */ ///
-						 subgroup(subgroup_cost) /* no subgroup het test*/ ///
+						  /* subgroup(subgroup_cost) no subgroup het test*/ ///
 						 noghet /* add line: esrefl*/ ///
 						 scheme(lean2) ///
 						/*  xline(`pooled', lpattern(dash)) xline(0) */ ///

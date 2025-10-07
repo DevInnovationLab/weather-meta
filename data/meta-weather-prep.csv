@@ -1,12 +1,12 @@
 dcode,subgroup_cost,variable_group,profitcosts_effectsize,profitcosts_sterror,profitcostsperha_effectsize,profitcostsperha_sterror,yields_effectsize,yields_sterror,takeup_effectsize,takeup_sterror,definition,pct_of_controlmean,control_mean_prep,n,yearofstudy,followup
-camacho_etal_2019,Cost savings,costs,141.00786,86.726067,74.60733,45.886806,,,.33000001,.039999999,"labor costs (in 100,000 pesos)",.54589373,258.30643,292,2009,5 months
-yegbemey_etal_2023_cotton,Cost savings,costs,226.11194,98.107758,50.811672,22.046688,,,.69999999,,"cotton, total labor expenditure per hectare, denoted USD/ha.",.16979374,1331.6859,259,2018,7 months (pooled monthly surveys)
-yegbemey_etal_2023_maize,Cost savings,costs,198.54097,51.177418,31.614803,8.1492701,,,.69999999,,"maize, total labor expenditure per hectare, denoted USD/ha.",.22959049,864.76129,305,2018,7 months (pooled monthly surveys)
-burlig_etal_2025,Profits,profits,-229.96523,173.27211,-108.47417,81.732132,,,.88,.02,ag profit ($) is the value of production (evaluated at district-median prices) less total expenditure in USD.,-.21965341,1046.9458,1201,2022,5 months
-cole_etal_2025,Profits,profits,5.1332917,14.624872,5.7937832,16.506628,,,.94,.0049999999,"total value of harvest (calculated using median sales prices in farmers’ location) minus total variable cost, INR",.042353779,121.20033,1929,2021,6 months
-rudder_etal_2024,Profits,profits,6.1409879,17.736948,2.7203982,7.857296,,,.12,.0099999998,profits,.068217777,90.020348,1386,2023,8 months
-burlig_etal_2025,,yields,,,,,-2.9200001,2.73,.88,.02,yield is kilograms of production per hectare,-.076537251,38.15136,1201,2022,5 months
-cole_etal_2025,,yields,,,,,41.82,43.029999,.94,.0049999999,total rice yield (kg/ha) using self-reported harvest and self-reported land size,.015413556,2713.196,3835,,6 months
-rudder_etal_2024,,yields,,,,,59.304001,58.315601,.12,.0099999998,yields (mounds = 40kg/acre),.050933786,1164.3352,1403,2023,8 months
-yegbemey_etal_2023_cotton,,yields,,,,,153.73,39.790001,.69999999,,cotton in kg per ha ,.095275573,1613.53,298,,7 months (pooled monthly surveys)
-yegbemey_etal_2023_maize,,yields,,,,,249.87,377.20001,.69999999,,maize in kg per ha ,.070913672,3523.5801,261,,7 months (pooled monthly surveys)
+camacho_etal_2019,Cost savings,costs,141.007845068,86.726064002,74.60732543280423,45.88680635026455,,,.33,.04,"labor costs (in 100,000 pesos)",.5458937198067633,258.306406452,292,2009,5 months
+yegbemey_etal_2023_cotton,Cost savings,costs,226.111937377115,98.107757076753,50.81167132070001,22.04668698354,,,.7,,"cotton, total labor expenditure per hectare, denoted USD/ha.",.1697937350569356,1331.685985359205,259,2018,7 months (pooled monthly surveys)
+yegbemey_etal_2023_maize,Cost savings,costs,198.5409666815388,51.1774183390848,31.61480361171001,8.14927043616,,,.7,,"maize, total labor expenditure per hectare, denoted USD/ha.",.2295904887714663,864.7612875599821,305,2018,7 months (pooled monthly surveys)
+burlig_etal_2025,Profits,profits,-229.9652276064,173.27211145728,-108.474163965283,81.7321280458868,,,.88,.02,ag profit ($) is the value of production (evaluated at district-median prices) less total expenditure in USD.,-.2196534174033092,1046.94582185424,1201,2022,5 months
+cole_etal_2025,Profits,profits,5.13329179183254,14.6248727116653,5.793783060759075,16.50662834273736,,,.9399999999999999,.005,"total value of harvest (calculated using median sales prices in farmers’ location) minus total variable cost, INR",.042353780776592,121.2003202006845,1929,2021,6 months
+rudder_etal_2024,Profits,profits,6.140987999999999,17.736948,2.720398233775546,7.857296254571532,,,.12,.01,profits,.0682177745968082,90.02035079999999,1386,2023,8 months
+burlig_etal_2025,,yields,,,,,-2.92,2.73,.88,.02,yield is kilograms of production per hectare,-.0765372439334197,38.15136069624,1201,2022,5 months
+cole_etal_2025,,yields,,,,,41.82,43.03,.9399999999999999,.005,total rice yield (kg/ha) using self-reported harvest and self-reported land size,.0154135565583909,2713.196,3835,,6 months
+rudder_etal_2024,,yields,,,,,59.304,58.3156,.12,.01,yields (mounds = 40kg/acre),.0509337860780985,1164.3352,1403,2023,8 months
+yegbemey_etal_2023_cotton,,yields,,,,,153.73,39.79,.7,,cotton in kg per ha ,.0952755759112009,1613.53,298,,7 months (pooled monthly surveys)
+yegbemey_etal_2023_maize,,yields,,,,,249.87,377.2,.7,,maize in kg per ha ,.0709136730257295,3523.58,261,,7 months (pooled monthly surveys)
